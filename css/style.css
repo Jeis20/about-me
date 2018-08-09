@@ -1,5 +1,28 @@
 *{color: blue
 }
 
-body {background-color: forestgreen
+body {
+    background-color: rgb(136, 143, 136);
+}
+
+h1 {
+    border: 5px solid black;
+    font-size: 50px;
+}
+
+p {
+    color: black;
+    padding: 75px;
+
+}
+
+ul {
+    list-style-type: square;
+    margin: 30px;
+
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 60px;
 }
