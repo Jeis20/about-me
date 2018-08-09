@@ -26,6 +26,7 @@ var answerOne = prompt('Do I have any pets?').toLowerCase();
 }
 function (questionCount1);
 
+function (questionCount2) {
 var answerTwo = prompt('Do I have any dragons?').toLowerCase();
     if (answerTwo === 'n'|| answerTwo === 'no') {
         alert('Correct! Breathe a sigh of relief.. and not fire.');
@@ -35,6 +36,8 @@ var answerTwo = prompt('Do I have any dragons?').toLowerCase();
     else {
         alert('No, but I wish I did!');
         }
+    }
+    function(questionCount2);
 
 var answerThree = prompt('Do I like chai tea lattes?').toLowerCase();
     if (answerThree === 'n'|| answerThree === 'no') {
