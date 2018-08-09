@@ -9,6 +9,10 @@ var correctAnswers = 0;
 
 // Ask them five y/n questions
 
+function (questionCount1){
+    var nums = [1]
+    for (var i = 0; i < num.length; i++){
+    
 var answerOne = prompt('Do I have any pets?').toLowerCase();
     if (answerOne === 'y'|| answerOne === 'yes') {
         alert('You got it right!');
@@ -18,6 +22,9 @@ var answerOne = prompt('Do I have any pets?').toLowerCase();
     else {
         alert('Epic Fail. Of course I do, this is Seattle!');
         }
+    }
+}
+function (questionCount1);
 
 var answerTwo = prompt('Do I have any dragons?').toLowerCase();
     if (answerTwo === 'n'|| answerTwo === 'no') {
