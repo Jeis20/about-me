@@ -112,7 +112,7 @@ function questionCountSeven(){
   do {
     var userDog = prompt('Can you guess any of the different dog breeds I\'ve had in my entire life?');
     if (userDog === dogBreeds[0]) {
-      alert('Correct, you get a tail wag!')
+      alert('Correct, you get a tail wag!');
       console.log('checking first array position for correct answer');
       correctAnswers++;
       break;
@@ -127,49 +127,18 @@ function questionCountSeven(){
       correctAnswers++;
       break;
     } else if(num === 5) {
-      alert('This is the end, go back through to earn your tail wag!')
+      alert('This is the end, go back through to earn your tail wag!');
       console.log('user has run out of attempts, can try again');
       break;
     } else {
-      alert('Tail is wagging, try again!')
+      alert('Tail is wagging, try again!');
       console.log('user gets message saying answer was incorrect');
       num++;
-    } 
+    }
   } while (num < 6);
-} 
+}
 questionCountSeven();
-   
-      alert('Out of 7 questions about me, you got ' + correctAnswers + ' correct. Happy trails ' + userName + '!');
-      console.log('tells user the number of total questions correct out of seven');
 
+alert('Out of 7 questions about me, you got ' + correctAnswers + ' correct. Happy trails ' + userName + '!');
+console.log('tells user the number of total questions correct out of seven');
 
-      // function questionCountSeven(){
-      //   var dogBreeds = ['Chihuahua','German Shepherd','Rottweiler'];
-      //   var answerSeven;
-      //   var num = 6;
-      //   var correctGuess = false;
-      //   while (num !== 0) {
-      //     answerSeven = prompt('Can you guess any of the different breeds of dog I\'ve had in my entire life?').toLowerCase();
-      //     for (var i = 0; i < dogBreeds.length; i++) {
-      //       if (answerSeven === dogBreeds[i]) {
-      //         alert('Where my dogs at!? Argghhh, Arghhh! You got it! I\'ve had Chihuahuas, a German Shepherd, and a Rottweiler!');
-      //         correctAnswers++;
-      //         correctGuess = true;
-      //         console.log('first if statement');
-      //         console.log(dogBreeds[i]);
-      //         break;
-      //       } else if (answerSeven !== dogBreeds[i]) {
-      //         alert('Tail is wagging, but try again!');
-      //         console.log('first else if statement');
-      //         console.log(dogBreeds[i]);
-      //       } else if (num === 0) {
-      //         alert('Thanks for playing.. you still get a tail wag! I\'ve had Chihuahuas, a German Shepherd, and a Rottweiler');
-      //         console.log('second else if statement');
-      //       }
-      //     }
-      //     if (correctGuess){
-      //     break;
-      //     }
-      //     num--;
-      //   }
-      // }
